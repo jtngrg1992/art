@@ -1,0 +1,13 @@
+<div class="painting-single" ng-repeat="x in data">
+			<div style="position: relative;">
+				<center><img src="{{x.IMAGE}}"></center>
+			</div>
+			<a href="#/details/{{x.ID}}"><p id="title"><span id="detail1" title="{{x.TITLE}}">"{{x.TITLE| limitTo: 20}}{{x.TITLE.length > 20 ? '...' : ''}}"</span> <span id="detail2">by {{x.ARTIST}}</span></p></a>
+			<p id="detail3"><b>Auction Location:</b> {{x.AUCTION_LOCATION}}</p>
+			<p id="detail3"><b>Estiamted Max:</b> {{x.ESTIMATE_MAX}}</p>
+		</div>	
+
+	
+	<div style="float: left; margin: 10px; width: 100%;" ng-controller='requestData'>
+			<center style="position: fixed;bottom: 0px;left: 42%;"> <button ng-click="prev()" id="btn">Prev</button><button id="btn" ng-click="next()">Next</button></center>
+	</div>

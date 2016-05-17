@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+			<div style="position: relative;" id="image_info_img_div">
+				<center><img id="image_info_img"  src={{details.IMAGE}}></center>
+			</div>
+			<div class="image_info">
+			<!-- <span class="spacedinput"><b class="legend"> Artist </b> <input id="image_info_input" type="text" ng-model=details.ARTIST ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Nationality </b> <input id="image_info_input" type="text" ng-model=details.NATIONALITY ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Year of birth </b> <input id="image_info_input" type="text" ng-model=details.YOB ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> YOD </b> <input id="image_info_input" type="text" ng-model=details.YOD ng-change='recordChange()'></span> -->
+			<span class="spacedinput"><b class="legend"> Title </b> <input id="image_info_input" type="text" ng-model=details.TITLE ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Painted Year </b> <input id="image_info_input" type="text" ng-model=details.PAINTED_YEAR ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Dimentions </b> <input id="image_info_input" type="text" ng-model=details.DIMENTIONS_TEXT ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Orientation </b> <input id="image_info_input" type="text" ng-model=details.ORIENTATION ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Material Text </b> <input id="image_info_input" type="text" ng-model=details.MATERIAL_TEXT ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Medium </b> <input id="image_info_input" type="text" ng-model=details.MEDIUM ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Material </b> <input id="image_info_input" type="text" ng-model=details.MATERIAL ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Auction House </b> <input id="image_info_input" type="text" ng-model=details.AUCTION_HOUSE ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Auction Location </b> <input id="image_info_input" type="text" ng-model=details.AUCTION_LOCATION ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Auction Name </b> <input id="image_info_input" type="text" ng-model=details.AUCTION_NAME ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Sale Date </b> <input id="image_info_input" type="text" ng-model=details.SALE_DATE ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Lot </b> <input id="image_info_input" type="text" ng-model=details.LOT ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Category </b> <input id="image_info_input" type="text" ng-model=details.Category ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Image </b> <input id="image_info_input" type="text" ng-model=details.IMAGE ng-change='recordChange()'></span>
+			<!-- <span class="spacedinput"><b class="legend"> Image_ID</b> <input id="image_info_input" type="text" ng-model=details.IMAGE_ID ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Size_W </b> <input id="image_info_input" type="text" ng-model=details.SIZE_W ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Size_H </b> <input id="image_info_input" type="text" ng-model=details.SIZE_H ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Unit of Measure </b> <input id="image_info_input" type="text" ng-model=details.UNIT_OF_MEASURE ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Type </b> <input id="image_info_input" type="text" ng-model=details.TYPE ng-change='recordChange()'></span> -->
+			<span class="spacedinput"><b class="legend"> Signed </b> <input id="image_info_input" type="text" ng-model=details.SIGNED ng-change='recordChange()'></span>
+			<span class="spacedinput"><b class="legend"> Dated </b> <input id="image_info_input" type="text" ng-model=details.DATED ng-change='recordChange()'></span>
+			<!-- <span class="spacedinput"><b class="legend"> Markings_Text </b> <input id="image_info_input" type="text" ng-model=details.MARKINGS_TEXT ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Provenance </b> <input id="image_info_input" type="text" ng-model=details.PROVENANCE ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Provenance Text </b> <input id="image_info_input" type="text" ng-model=details.PROVENANCE_TEXT ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Sale </b> <input id="image_info_input" type="text" ng-model=details.SALE ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Currency of sale </b><input id="image_info_input" type="text" ng-model=details.CURR_OF_SALE ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Est_Curr </b> <input id="image_info_input" type="text" ng-model=details.EST_CURR ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Estimate_Min </b> <input id="image_info_input" type="text" ng-model=details.ESTIMATE_MIN ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Estimate_Max </b> <input id="image_info_input" type="text" ng-model=details.ESTIMATE_MAX ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> Price_Sold </b> <input id="image_info_input" type="text" ng-model=details.PRICE_SOLD ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> USD_Min_Price </b> <input id="image_info_input" type="text" ng-model=details.USD_Min_Price ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> USD_Max_Price </b> <input id="image_info_input" type="text" ng-model=details.USD_Max_Price ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> USD Price </b> <input id="image_info_input" type="text" ng-model=details.USD_Price ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> INR_Min_Price </b> <input id="image_info_input" type="text" ng-model=details.INR_min_price ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> INR_Max_Price </b> <input id="image_info_input" type="text" ng-model=details.INR_Max_Price ng-change='recordChange()'></span> -->
+			<!-- <span class="spacedinput"><b class="legend"> INR Price </b> <input id="image_info_input" type="text" ng-model=details.INR_Price ng-change='recordChange()'></span> -->
+			<span class="spacedinput"><b class="legend"> URL </b> <input id="image_info_input" type="text" ng-model=details.URL ng-change='recordChange()'></span>
+			
+			</div>
+			
+	<div class="navigate-back">
+		<button id="image_info_btn" ng-click="goBack()"> Go Back</button>
+		<button id="image_info_btn" ng-click="save(details.ID)"ng-show=cflag>Save Changes</button>
+		<button id="image_info_btn" ng-hide=cflag ng-click="markOK(details.ID)">OK</button>
+		<button id="image_info_btn" ng-click="markNotOk(details.ID)"> Not OK</button>
+	</div>
+
+</body>
+</html>
